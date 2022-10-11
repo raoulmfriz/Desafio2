@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(../images/3.3-2-1300x803.jpg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    height: 1300px;
+    width: auto;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header h1 {
+    font-size: 200px;
+    color: rgb(0, 0, 0);
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+
+}
+
+section .segmento {
+    display: flex;
+    flex-direction: row;
+
+}
+
+section .card {
+    background-color: rgb(0, 21, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    display: flex;
+    width: 900px;
+    height: 900px;
+}
+
+.card .card-image {
+    display: flex;
+    justify-content: center;
+}
+
+.card .card-image img {
+    object-fit: cover;
+    height: 600px;
+    width: 500px;
+}
+
+.card .card-text {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: rgb(255, 208, 0);
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+footer a {
+    font-size: 30px;
+
+}
